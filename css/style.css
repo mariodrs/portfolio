@@ -19,7 +19,8 @@ html,body {
 /**************Navigation - desktop*******************************************/
 .menu-btn {
   display: none;
-  padding: .5vh 5vw;
+/*  padding: .5vh 5vw; */
+  padding: 1vh 5vw;
   width: 28px;
   height: 28px;
   float: right;
@@ -87,8 +88,8 @@ li a:hover::before {
 .logo img{
   padding: 1vh 5vw;
   cursor: pointer;
-  min-width: 50px;
-  max-width: 4vw;
+  min-width: 35px;
+  max-width: 3.5vw;
   height: auto;
 }
 
@@ -107,8 +108,10 @@ button{
 button:hover{
   background: black;
   color: white;
+  border: .5px grey solid;
   box-shadow: 3px black inset;
   cursor: pointer;
+
 }
 
 nav ul span {
@@ -175,7 +178,7 @@ nav ul span {
   color: gray;
   display: block;
   font-size: .65em;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 nav ul li {

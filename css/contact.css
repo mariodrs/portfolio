@@ -23,17 +23,6 @@
 }
 
 
-.menu-btn {
-	position: relative;
-	z-index: 98;
-	padding: 3vh;
-  width: 28px;
-  height: 28px;
-  float: right;
-  cursor: pointer;
-}
-
-
 
 /*------------------------------------------------------------------
 [ Contact page info - linkedIn etc ]*/
@@ -293,7 +282,7 @@ textarea {
 .send-btn:hover { /* button hover */
 	background: white;
 	color: black;
-	border: 1px black solid;
+	border: .5px black solid;
 	box-shadow: 3px black inset;
 	cursor: pointer;
 }
