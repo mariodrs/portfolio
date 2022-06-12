@@ -16,7 +16,8 @@ html,body {
 
 
 
-/**************Navigation - desktop*******************************************/
+/*----------------------------------------------------------------
+[ Navigation - desktop ]*/
 .menu-btn {
   display: none;
 /*  padding: .5vh 5vw; */
@@ -97,7 +98,7 @@ button{
   margin: 0 5vw 0 2vw;
   color: black;
   border: none;
-  padding: 1vh 2vw;
+  padding: 1vh 1vw;
   cursor: pointer;
   transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
@@ -117,11 +118,10 @@ button:hover{
 nav ul span {
   display: none;
 }
-/*****************************************************************************/
 
 
-
-/**************Navigation - mobile********************************************/
+/*----------------------------------------------------------------
+[ Navigation - mobile ]*/
 @media (max-width: 768px) {
 
 .menu-btn {
@@ -314,14 +314,13 @@ button{
   }
 }
 }
-/*****************************************************************************/
 
 
 
 
 
-
-/* The Modal (background) */
+/*----------------------------------------------------------------
+[ Modal Background ]*/
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -352,7 +351,7 @@ button{
 }
 
 
-/* Add Animation */
+/* Animation */
 @-webkit-keyframes animatetop {
   from {top:-300px; opacity:0}
   to {top:0; opacity:1}
@@ -363,7 +362,7 @@ button{
   to {top:0; opacity:1}
 }
 
-/* The Close Button */
+/* Close Button */
 .close {
   color: white;
   float: right;

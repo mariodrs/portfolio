@@ -260,7 +260,8 @@ textarea {
   justify-content: center;
 }
 
-.send-btn { /* button styling */
+/* button styling */
+.send-btn {
 	display: list-item;
 	background: black;
 	color:white;
@@ -279,7 +280,8 @@ textarea {
 	margin-bottom: 1.5vh;
 }
 
-.send-btn:hover { /* button hover */
+/* button hover */
+.send-btn:hover {
 	background: white;
 	color: black;
 	border: .5px black solid;
