@@ -35,6 +35,10 @@ html,body {
   color: 	#40E0D0;
 }
 
+.cv{
+  display: none;
+}
+
 
 /*----------------------------------------------------------------
 [ Navigation - desktop ]*/
@@ -146,6 +150,10 @@ nav ul span {
 
 .menu-btn {
   display: block;
+  }
+
+  .cv{
+    display: inline-block;
   }
 
 nav {
