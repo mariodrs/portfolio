@@ -12,39 +12,38 @@
 
   <header>
     <a class="logo" href="index.html"><img src="images/logo.png" alt=""></a>
-  <nav id="overlay">
-      <img src="images/close-button.svg" alt="menu" class="close-button"  id="close-menu">
-      <ul>
-          <li>
-              <a href="index.html">Home</a>
-              <span>Site overview</span>
-          </li>
+    <nav id="overlay">
+        <img src="images/close-button.svg" alt="menu" class="close-button"  id="close-menu">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+                <span>Site overview</span>
+            </li>
 
-          <li>
-              <a href="about.html">About</a>
-              <span>A little bit about me</span>
-          </li>
+            <li>
+                <a href="about.html">About</a>
+                <span>A little bit about me</span>
+            </li>
 
-          <li>
-              <a href="services.html">Services</a>
-              <span>See what services I can offer</span>
-          </li>
+            <li>
+                <a href="portfolio.html">Portfolio</a>
+                <span>View my previous work</span>
+            </li>
 
-          <li>
-              <a href="portfolio.html">Portfolio</a>
-              <span>View my previous work</span>
-          </li>
+            <li>
+                <a href="services.html">Services</a>
+                <span>See what services I can offer</span>
+            </li>
 
-          <li>
-              <a href="contact.html">Contact</a>
-              <span>Find all my contact details</span>
-          </li>
-      </ul>
-  </nav>
+            <li>
+                <a href="contact.html">Contact</a>
+                <span>Find all my contact details</span>
+            </li>
+        </ul>
+    </nav>
     <a href="#"><button type="button" name="button">Download CV</button></a>
       <img src="images/burger-menu-white.svg" alt="menu" class="menu-btn" id="open-menu">
   </header>
-
 
     <div class="contact-page">
       <div class="left-side" style="background-image: url('images/contact_background.jpg');">
@@ -114,46 +113,45 @@
 
 
     <div class="right-side">
-    <form id="contact-form" method="post">
+      <form id="contact-form" method="post">
 
-      <span class="form-title">
-        Send a Message!
-      </span>
+        <span class="form-title">
+          Send a Message!
+        </span>
 
 
-      <!--Client side Form validation-->
-      <div class="alert alert-danger py-3 text-center" id="alert-danger"></div>
-      <div class="alert alert-success py-3 text-center" id="alert-success"></div>
+        <!--Client side Form validation-->
+        <div class="alert alert-danger py-3 text-center" id="alert-danger"></div>
+        <div class="alert alert-success py-3 text-center" id="alert-success"></div>
 
-      <label class="form-text" for="name">Enter your name*</label>
-      <div class="form-fields">
-      <input class="input100" type="text" id="name" placeholder="Eg. Lebron James" required>
-      </div>
+        <label class="form-text" for="name">Enter your name*</label>
+        <div class="form-fields">
+        <input class="input100" type="text" id="name" placeholder="Eg. Lebron James" required>
+        </div>
 
-      <label class="form-text" for="email">Enter your email*</label>
-      <div class="form-fields">
-      <input class="input100" type="text" id="email" placeholder="Eg. Example@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
-      </div>
+        <label class="form-text" for="email">Enter your email*</label>
+        <div class="form-fields">
+        <input class="input100" type="text" id="email" placeholder="Eg. Example@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+        </div>
 
-      <label class="form-text" for="subject">Enter subject*</label>
-      <div class="form-fields">
-      <input class="input100" type="text" id="subject" placeholder="Eg. Job opportunity" required>
-      </div>
+        <label class="form-text" for="subject">Enter subject*</label>
+        <div class="form-fields">
+        <input class="input100" type="text" id="subject" placeholder="Eg. Job opportunity" required>
+        </div>
 
-      <label class="form-text" for="message">Enter Message*</label>
-      <div class="form-fields">
-        <textarea class="input100" id="message" placeholder="Enter your message..." required></textarea>
-      </div>
+        <label class="form-text" for="message">Enter Message*</label>
+        <div class="form-fields">
+          <textarea class="input100" id="message" placeholder="Enter your message..." required></textarea>
+        </div>
 
-      <div class="contact-form-btn">
-        <button class="send-btn" type="button" onClick="submitToAPI(event)">Send Message</button>
-      </div>
-</form>
+        <div class="contact-form-btn">
+          <button class="send-btn" type="button" onClick="submitToAPI(event)">Send Message</button>
+        </div>
+      </form>
 </div>
 </div>
 
     <script src="scripts/script.js"></script>
-
 
 </body>
 </html>
