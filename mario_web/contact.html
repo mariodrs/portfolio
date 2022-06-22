@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/contact.css">
+    <title>Mario Dryas - Contact</title>
+</head>
+<body>
+
+  <header>
+    <a class="logo" href="index.html"><img src="images/logo.png" alt=""></a>
+    <nav id="overlay">
+        <img src="images/close-button.svg" alt="menu" class="close-button"  id="close-menu">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+                <span>Site overview</span>
+            </li>
+
+            <li>
+                <a href="about.html">About</a>
+                <span>A little bit about me</span>
+            </li>
+
+            <li>
+                <a href="portfolio.html">Portfolio</a>
+                <span>View my previous work</span>
+            </li>
+
+            <li>
+                <a href="services.html">Services</a>
+                <span>See what services I can offer</span>
+            </li>
+
+            <li>
+                <a href="contact.html">Contact</a>
+                <span>Find all my contact details</span>
+            </li>
+        </ul>
+    </nav>
+    <a href="#"><button type="button" name="button">Download CV</button></a>
+      <img src="images/burger-menu-white.svg" alt="menu" class="menu-btn" id="open-menu">
+  </header>
+
+    <div class="contact-page">
+      <div class="left-side" style="background-image: url('images/contact_background.jpg');">
+
+            <table>
+
+              <tr>
+                <th><img src="images/phone.svg" alt="Phone" class="contact-svg"></th>
+                <th colspan="2" class="table-title">Phone</th>
+              </tr>
+              <tr>
+                <td></td>
+                <td>+44 7713082032</td>
+                <tr>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                </tr>
+
+
+                <tr>
+                  <th><img src="images/email.svg" alt="Email" class="contact-svg"></th>
+                  <th colspan="2" class="table-title">Email</th>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>mario.dryas99@gmail.com</td>
+                <tr>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                </tr>
+
+
+                <tr>
+                  <th><img src="images/global.svg" alt="LinkedIn" class="contact-svg"></th>
+                  <th colspan="2" class="table-title">LinkedIn</th>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="https://www.linkedin.com/in/mario-dryas/" target="_blank">www.linkedin.com/in/mario-dryas/</a></td>
+                </tr>
+
+                  <tr>
+                  <td></td>
+                  </tr>
+
+            </table>
+
+            <div class="email-msg">
+              <p> *For all email enquiries, please complete the below form. I will aim to get back to you as quickly as possible.*</p>
+            </div>
+
+            <div class="scroll-downs">
+              <div class="mousey">
+                <div class="scroller"></div>
+              </div>
+            </div>
+
+            </div>
+
+
+    <div class="right-side">
+      <form id="contact-form" method="post">
+
+        <span class="form-title">
+          Send a Message!
+        </span>
+
+
+        <!--Client side Form validation-->
+        <div class="alert alert-danger py-3 text-center" id="alert-danger"></div>
+        <div class="alert alert-success py-3 text-center" id="alert-success"></div>
+
+        <label class="form-text" for="name">Enter your name*</label>
+        <div class="form-fields">
+        <input class="input100" type="text" id="name" placeholder="Eg. Lebron James" required>
+        </div>
+
+        <label class="form-text" for="email">Enter your email*</label>
+        <div class="form-fields">
+        <input class="input100" type="text" id="email" placeholder="Eg. Example@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+        </div>
+
+        <label class="form-text" for="subject">Enter subject*</label>
+        <div class="form-fields">
+        <input class="input100" type="text" id="subject" placeholder="Eg. Job opportunity" required>
+        </div>
+
+        <label class="form-text" for="message">Enter Message*</label>
+        <div class="form-fields">
+          <textarea class="input100" id="message" placeholder="Enter your message..." required></textarea>
+        </div>
+
+        <div class="contact-form-btn">
+          <button class="send-btn" type="button" onClick="submitToAPI(event)">Send Message</button>
+        </div>
+      </form>
+</div>
+</div>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>

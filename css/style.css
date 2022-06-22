@@ -18,7 +18,7 @@ html,body {
 /*----------------------------------------------------------------
 [ Home text center ]*/
 .center-screen {
-  position: fixed;
+  position: absolute;
   width: 80vw;
   padding: 20px;
   top: 50%;
@@ -27,6 +27,7 @@ html,body {
   color: white;
   font-size: 50px;
   text-align: center;
+  z-index: -99;
 }
 
 .center-screen p{
