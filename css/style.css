@@ -114,7 +114,7 @@ li a:hover::after {
   padding: 1vh 3vw;
   cursor: pointer;
   min-width: 35px;
-  max-width: 3.5vw;
+  max-width: 3vw;
   height: auto;
 }
 
