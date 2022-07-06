@@ -118,7 +118,7 @@ li a:hover::after {
   height: auto;
 }
 
-button{
+a > button{
   margin: 0 5vw 0 2vw;
   color: black;
   border: none;
@@ -130,7 +130,7 @@ button{
   text-transform: uppercase;
 }
 
-button:hover{
+a > button:hover{
   background: black;
   color: white;
   border: .5px grey solid;
