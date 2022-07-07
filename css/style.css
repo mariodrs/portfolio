@@ -143,10 +143,51 @@ nav ul span {
   display: none;
 }
 
+/*----------------------------------------------------------------
+[ About ]*/
+.about{
+  position: absolute;
+  width: 60%;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  color: black;
+}
+
+.about > h1{
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 6px;
+  margin-bottom: 0;
+}
+
+.about > h2{
+  color: #777;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.portrait > img{
+  width: 25%;
+  border-radius: 50%;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+
+
 
 /*----------------------------------------------------------------
 [ Navigation - mobile ]*/
 @media (max-width: 768px) {
+
+.about{
+  width: 90%;
+}
 
 .menu-btn {
   display: block;
