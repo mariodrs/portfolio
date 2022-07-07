@@ -10,7 +10,6 @@ height: -webkit-fill-available;
 	position: absolute;
   width: 100vw;
 	height: 100vh;
-	min-height: 100%;
 	height: -webkit-fill-available;
   background: #fff;
   display: flex;
@@ -93,7 +92,6 @@ td a:hover {
 .left-side {
   width: 45vw; /* page ratio between left/right sides */
 	height: 100vh;
-	min-height: 100%;
 	height: -webkit-fill-available;
   background-size: cover;
   background-position: center;
@@ -149,7 +147,6 @@ td a:hover {
 .right-side {
   width: 55vw;/* page ratio between left/right sides */
 	height: 100vh;
-	min-height: 100%;
 	height: -webkit-fill-available;
   flex-wrap: wrap;
 	box-sizing: border-box;
@@ -342,7 +339,6 @@ textarea {
 	.right-side {
 	  width: 100vw; /* ensures each side fills 100% of viewport on mobile*/
 		height: 100vh;
-		min-height: 100%;
 		height: -webkit-fill-available;
 		box-sizing: border-box;
 				/* Scroll snap */
@@ -352,7 +348,6 @@ textarea {
   .left-side {
     width: 100vw; /* ensures each side fills 100% of viewport on mobile*/
 		height: 100vh;
-		min-height: 100%;
 		height: -webkit-fill-available;
 		box-sizing: border-box;
 				/* Scroll snap */
