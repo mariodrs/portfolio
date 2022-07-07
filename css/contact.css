@@ -99,15 +99,6 @@ td a:hover {
   position: relative;
 }
 
-.left-side::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-	height: -webkit-fill-available;
-  background: rgba(0,0,0,0.30); /* background opacity for imagge */
-	/* border: 2px solid yellow;*/
-}
 
 
 
