@@ -88,7 +88,7 @@ td a:hover {
 
 .left-side {
   width: 45vw; /* page ratio between left/right sides */
-  height:100svh;
+  height:100vh;
   background-size: cover;
   background-position: center;
 	/* form background image ^ */
@@ -150,7 +150,7 @@ td a:hover {
 [ Contact page form ]*/
 .right-side {
   width: 55vw;/* page ratio between left/right sides */
-  height:100svh;
+  height:100vh;
   flex-wrap: wrap;
 	box-sizing: border-box;
 	/*border: 2px orange solid;*/
@@ -340,16 +340,19 @@ textarea {
 	}
 
 	.right-side {
+		position: fixed;
+		top: 100%;
 	  width: 100vw; /* ensures each side fills 100% of viewport on mobile*/
-		height: 100svh;
+		height: 100%;
 		box-sizing: border-box;
 				/* Scroll snap */
 		scroll-snap-align: start;
 	}
 
   .left-side {
+		position: fixed;
     width: 100vw; /* ensures each side fills 100% of viewport on mobile*/
-		height: 100svh;
+		height: 100%;
 		box-sizing: border-box;
 				/* Scroll snap */
 		scroll-snap-align: start;
