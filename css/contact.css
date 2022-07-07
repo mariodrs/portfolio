@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Cabin");
 
-
+:root {
+    --real100vh: 100vh;
+}
 
 /*------------------------------------------------------------------
 [ Main contact page ]*/
@@ -342,9 +344,7 @@ textarea {
 
 	.right-side {
 	  width: 100vw; /* ensures each side fills 100% of viewport on mobile*/
-		min-height: 100vh;
-		grid-template-columns: 1fr;
-  grid-template-rows: 30px 1fr 30px
+		height: var(--real100vh);
 		box-sizing: border-box;
 				/* Scroll snap */
 		scroll-snap-align: start;
@@ -352,9 +352,7 @@ textarea {
 
   .left-side {
     width: 100vw; /* ensures each side fills 100% of viewport on mobile*/
-		min-height: 100vh;
-		grid-template-columns: 1fr;
-  grid-template-rows: 30px 1fr 30px
+		height: var(--real100vh);
 		box-sizing: border-box;
 				/* Scroll snap */
 		scroll-snap-align: start;
