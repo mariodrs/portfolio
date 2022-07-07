@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Cabin");
 
+html {
+height: -webkit-fill-available;
+}
 
 /*------------------------------------------------------------------
 [ Main contact page ]*/
 .contact-page {
-	position: fixed;
+	position: absolute;
   width: 100vw;
 	height: 100vh;
-
+	height: -webkit-fill-available;
   background: #fff;
   display: flex;
 	flex-wrap: wrap;
@@ -89,6 +92,7 @@ td a:hover {
 .left-side {
   width: 45vw; /* page ratio between left/right sides */
   height:100vh;
+	height: -webkit-fill-available;
   background-size: cover;
   background-position: center;
 	/* form background image ^ */
@@ -151,6 +155,7 @@ td a:hover {
 .right-side {
   width: 55vw;/* page ratio between left/right sides */
   height:100vh;
+	height: -webkit-fill-available;
   flex-wrap: wrap;
 	box-sizing: border-box;
 	/*border: 2px orange solid;*/
@@ -341,7 +346,8 @@ textarea {
 
 	.right-side {
 	  width: 100vw; /* ensures each side fills 100% of viewport on mobile*/
-		height: 100%;
+		height: 100vh;
+		height: -webkit-fill-available;
 		box-sizing: border-box;
 				/* Scroll snap */
 		scroll-snap-align: start;
@@ -349,7 +355,8 @@ textarea {
 
   .left-side {
     width: 100vw; /* ensures each side fills 100% of viewport on mobile*/
-		height: 100%;
+		height: 100vh;
+		height: -webkit-fill-available;
 		box-sizing: border-box;
 				/* Scroll snap */
 		scroll-snap-align: start;
