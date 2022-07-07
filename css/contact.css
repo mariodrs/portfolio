@@ -4,7 +4,7 @@
 /*------------------------------------------------------------------
 [ Main contact page ]*/
 .contact-page {
-	position: absolute;
+	position: fixed;
   width: 100vw;
 	height: 100vh;
 
@@ -340,8 +340,6 @@ textarea {
 	}
 
 	.right-side {
-		position: fixed;
-		top: 100%;
 	  width: 100vw; /* ensures each side fills 100% of viewport on mobile*/
 		height: 100%;
 		box-sizing: border-box;
@@ -350,7 +348,6 @@ textarea {
 	}
 
   .left-side {
-		position: fixed;
     width: 100vw; /* ensures each side fills 100% of viewport on mobile*/
 		height: 100%;
 		box-sizing: border-box;
