@@ -39,13 +39,18 @@ html,body {
   display: none;
 }
 
+.scroll-section {
+  max-height: 100px;
+  overflow-y: auto;
+}
+
 
 /*----------------------------------------------------------------
 [ Navigation - desktop ]*/
 .menu-btn {
   display: none;
 /*  padding: .5vh 5vw; */
-  padding: 1vh 3vw;
+  margin: 1vh 3vw;
   width: 28px;
   height: 28px;
   float: right;
@@ -64,9 +69,10 @@ header{
   width: 100vw;
   color: white;
   background: rgba(0,0,0,0.80);
+  z-index: 99;
 }
 
-li, a, button{
+nav li, a, button{
   font-weight: 300;
   font-size: 14px;
   color: white;
@@ -74,19 +80,19 @@ li, a, button{
   list-style: none;
 }
 
-li{
+nav li{
   display: inline-block;
   padding: 0px 1vw;
 }
 
-li a {
+nav li a {
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 /* nav underline animation */
-li a::after {
+nav li a::after {
   content: '' ;
   position: absolute;
   width: 100%;
@@ -95,12 +101,12 @@ li a::after {
   left: 0;
 }
 
-li a::after {
+nav li a::after {
 transform: scale(0,1);
 transition: transform 0.3s ease;
 }
 
-li a:hover::after {
+nav li a:hover::after {
   background: white;
   transform: scale(1,1);
 }
@@ -111,7 +117,7 @@ li a:hover::after {
 }
 
 .logo img{
-  padding: 1vh 3vw;
+  margin: 1vh 3vw;
   cursor: pointer;
   min-width: 35px;
   max-width: 3vw;
@@ -227,7 +233,7 @@ nav {
 
 nav .close-button {
   display: block;
-  padding: 2em;
+  margin: 2em;
   width: 20px;
   float: right;
   cursor: pointer;
@@ -401,8 +407,8 @@ button{
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 60px; /* Location of the box */
+  z-index: 99; /* Sit on top */
+  padding-top: 70px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
