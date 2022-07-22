@@ -171,6 +171,8 @@ form {
   color: black;
   text-align: center;
   font-size: calc(1rem + 1vh);
+	font-weight: 700;
+	letter-spacing: 6px;
 	margin-top: 1.5vh;
   /*border: 1px solid black;*/
 }
